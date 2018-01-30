@@ -7,11 +7,11 @@
 ## Setup
 
 - `vagrant up`
-- Follow this gist: [https://gist.github.com/NaGeL182/9aa38362d4f3bb2b343d41363f0eb311](Gist) - Ignore the VSCode part if you dont use that.(launch.json)
+- Follow this gist: [Debuging in VSCode with Vagrant](https://gist.github.com/NaGeL182/9aa38362d4f3bb2b343d41363f0eb311) - Ignore the VSCode part if you dont use that.(launch.json)
 
 ## Access
 
-- go to [http://localhost:8080](localhost:8080)
+- go to [localhost:8080](http://localhost:8080)
 
 ## Requirement (withouth Vagrant)
 
