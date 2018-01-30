@@ -20,8 +20,23 @@ class App
                 unset($requestURI[$i]);
             }
         }
-        \var_dump($requestURI);
-        \var_dump($scriptName);
+        $command = \array_values($requestURI);
+        \var_dump($command);
+
+        switch ($command[0]) {
+            case "":
+                echo "index";
+                break;
+            case "log":
+                echo "log";
+                break;
+            case "prime":
+                echo "prime";
+                break;
+            default:
+                echo "404";
+                break;
+        }
     }
 
     protected function setupAutoload()
