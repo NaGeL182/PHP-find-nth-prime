@@ -7,11 +7,11 @@
 ## Setup
 
 - `vagrant up`
-- Follow this gist: https://gist.github.com/NaGeL182/9aa38362d4f3bb2b343d41363f0eb311
+- Follow this gist: [https://gist.github.com/NaGeL182/9aa38362d4f3bb2b343d41363f0eb311](Gist) - Ignore the VSCode part if you dont use that.(launch.json)
 
 ## Access
 
-- go to http://localhost:8080
+- go to [http://localhost:8080](localhost:8080)
 
 ## Requirement (withouth Vagrant)
 
@@ -20,7 +20,7 @@
 
 ## Setup (withouth Vagrant)
 
-- setup apache that it point to https://github.com/NaGeL182/PHP-find-nth-prime/tree/master/src
+- setup apache that it point to /src
 
 ## Access (withouth Vagrant)
 
