@@ -9,5 +9,5 @@ sudo /bin/cp -rf /vagrant/vagrant-files/000-default.conf /etc/apache2/sites-avai
 sudo service apache2 restart
 if ! [ -L /var/www/html ]; then
     sudo rm -rf /var/www/html
-    sudo ln -fs /vagrant /var/www/html
+    sudo ln -fs /vagrant/src /var/www/html
 fi
